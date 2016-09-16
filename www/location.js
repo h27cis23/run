@@ -1,4 +1,3 @@
-
 //位置情報を取得する
     //geolocationが使えるかの判断
     if(navigator.geolocation){  
