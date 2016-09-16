@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <br /><br />
+    <a href="https://developer.mozilla.org/ja/docs/WebAPI/Using_geolocation">geolocationの利用</a>
+    
+    <!--位置情報の表示-->
+    <script type="text/javascript" src="location.js"></script>
+    <ul id="location">
+    </ul>
+    
+    <!--google map-->
+    <script crc="https://maps.googleapis.com/maps/api/js?"></script>
+    <div class="map-embed">
+        <div id="map-canvas">地図が表示される</div>
+    </div>
+    
+    <!-- watchposition -->
+    <script type="text/javascript" src="watchlocation.js"></script>
+    <ul id="watchlocation">
+    </ul>    
+    
+    
+</head>
+</html>
